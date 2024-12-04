@@ -93,5 +93,5 @@ const solve2 = (data: string[][]) => {
     },0)
 }
 
+execute(solve1, [data],);
 execute(solve2, [data],);
-// execute(solve2, [data],);
