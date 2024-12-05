@@ -55,10 +55,8 @@ const solve2 = (data: any): number => {
     const rules: Rule[] = data[0];
     const pagesLists: PageList[] = data[1]
     return pagesLists.reduce((acc, list) => {
-
         if (!checkIfValid(list, rules)) {
             let sorted = sortList(list, rules)
-            // console.log('list: ', list, 'sorted: ', sorted)
             return acc + sorted[(sorted.length-1)/2]
         }
         return acc
