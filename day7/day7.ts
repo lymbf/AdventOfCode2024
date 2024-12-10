@@ -68,6 +68,8 @@ const solve1 = (data: any) => {
     }, BigInt(0))
 }
 
+/*   PART 2   */
+
 const solve2 = (data: any) => {
     return data.reduce((acc, line, index) => {
         let result: bigint = line[0]
