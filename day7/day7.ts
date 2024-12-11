@@ -95,6 +95,6 @@ const solve2 = (data: any) => {
 }
 
 
-// execute(solve1, [data],);
+execute(solve1, [data],);
 execute(solve2, [data],);
 
